@@ -1,0 +1,59 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  display: flex;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.nav-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-right: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+#sidebar {
+  background-color: #eee;
+  padding: 10px;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+
+#content {
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
